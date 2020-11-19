@@ -1,0 +1,19 @@
+<div class="big-container">
+  <div class="left">
+    <div class="opcion" (click)="enviar('mtcars.csv','table')">tabla carros</div>
+    <div class="opcion" (click)="enviar('prueba3.csv', 'table')">tabla efectiva</div>
+    <div class="opcion" (click)="enviar('prueba3.csv', 'graph', 'estado_cotizacion', 'estado_cotizacion', 'bar')">
+      grafica efectiva
+    </div>
+    <div class="opcion" (click)="enviar('prueba3.csv', 'graph', 'estado_cotizacion', 'estado_cotizacion', 'pie')">
+      grafica efectiva Circular
+    </div>
+    <div class="opcion" (click)="enviar('mtcars.csv', 'graph', 'cyl', 'gear', 'bar')">grafica carros</div>
+    <div class="opcion" (click)="enviar('prueba3.csv', 'nada')">Nada</div>
+  </div>
+  <div class="right">
+    <h1>Componente angular</h1>
+    <iframe id="ifrm" src="http://127.0.0.1:6358/" width="800" height="400"></iframe>
+  </div>
+
+</div>

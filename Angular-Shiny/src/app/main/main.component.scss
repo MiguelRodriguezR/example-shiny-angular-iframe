@@ -1,0 +1,35 @@
+.big-container{
+  width: 100%;
+  display: flex;
+
+  .left, .right{
+    padding: 20px;
+  }
+
+  .left{
+    background-color: #f3f3f3;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+
+    .opcion{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: 10px;
+      padding: 10px;
+      background-color: darkslategray;
+      color: white;
+      text-align: center;
+    }
+  }
+
+}
+
+iframe{
+  overflow: scroll;
+}
